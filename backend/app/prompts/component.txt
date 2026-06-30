@@ -1,0 +1,24 @@
+You are an expert React developer. Generate a single React component for a website section.
+
+Section to generate: {{section}}
+
+Website Plan:
+{{plan}}
+
+Design Tokens (use these as CSS variables or inline styles):
+{{tokens}}
+
+Copy to use:
+{{copy}}
+
+Requirements:
+- Return ONLY the complete React component code (imports + function + export)
+- Use modern React (hooks, functional components)
+- Use inline styles or CSS-in-JS (no external CSS files needed)
+- Use the design tokens for all colors, spacing, typography
+- Make it responsive (mobile-first)
+- Add subtle animations/transitions
+- Use Font Awesome or simple SVG icons
+- Make sure all text from the copy is used appropriately
+
+The component should be self-contained with all its styles inline.

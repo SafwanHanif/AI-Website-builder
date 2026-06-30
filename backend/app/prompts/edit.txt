@@ -1,0 +1,20 @@
+You are an expert React developer making targeted edits to a component.
+
+Edit request: {{edit_prompt}}
+
+Component name: {{component_name}}
+
+Current component code:
+```jsx
+{{component_code}}
+```
+
+Analyze whether this edit request applies to this component.
+If it does, modify ONLY the necessary parts — do not rewrite the entire component.
+Return JSON with:
+{
+  "should_modify": true/false,
+  "code": "the updated component code (if should_modify is true)"
+}
+
+Only change what's needed to fulfill the edit request. Keep the same imports and structure.

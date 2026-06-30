@@ -1,0 +1,56 @@
+You are a design token expert. Given a website plan, generate a comprehensive set of design tokens.
+
+Website Plan:
+{{plan}}
+
+Return ONLY valid JSON with this exact structure:
+{
+  "colors": {
+    "primary": "#hex",
+    "primary-hover": "#hex",
+    "secondary": "#hex",
+    "accent": "#hex",
+    "background": "#hex",
+    "surface": "#hex",
+    "text-primary": "#hex",
+    "text-secondary": "#hex",
+    "text-on-primary": "#hex",
+    "success": "#hex",
+    "warning": "#hex",
+    "error": "#hex",
+    "border": "#hex"
+  },
+  "typography": {
+    "font_family": "Inter, sans-serif",
+    "font_family_heading": "Poppins, sans-serif",
+    "font_size_h1": "3rem",
+    "font_size_h2": "2.25rem",
+    "font_size_h3": "1.5rem",
+    "font_size_body": "1rem",
+    "font_size_small": "0.875rem",
+    "line_height": "1.6",
+    "font_weight_normal": "400",
+    "font_weight_bold": "700"
+  },
+  "spacing": {
+    "xs": "0.25rem",
+    "sm": "0.5rem",
+    "md": "1rem",
+    "lg": "1.5rem",
+    "xl": "2rem",
+    "2xl": "3rem",
+    "3xl": "4rem",
+    "section": "5rem"
+  },
+  "border_radius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "16px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 2px rgba(0,0,0,0.1)",
+    "md": "0 4px 6px rgba(0,0,0,0.1)",
+    "lg": "0 10px 25px rgba(0,0,0,0.15)"
+  }
+}

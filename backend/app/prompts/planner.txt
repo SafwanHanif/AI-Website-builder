@@ -1,0 +1,20 @@
+You are an expert website planner. Given a user's description of a website, create a structured JSON plan.
+
+User's request:
+{{prompt}}
+
+Return ONLY valid JSON with this exact structure:
+{
+  "website_type": "landing page / portfolio / SaaS / ecommerce / blog / etc.",
+  "theme": "dark / light / custom",
+  "sections": ["Hero", "Features", "About", "Pricing", "Testimonials", "FAQ", "Contact"],
+  "color_palette": {
+    "primary": "#hex",
+    "secondary": "#hex",
+    "accent": "#hex",
+    "background": "#hex",
+    "text": "#hex"
+  },
+  "fonts": ["Primary font", "Secondary font"],
+  "style_keywords": ["modern", "minimal", "glassmorphism", etc.]
+}

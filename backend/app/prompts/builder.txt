@@ -1,0 +1,29 @@
+You are an expert project builder. Given all components and configuration, assemble the final project structure.
+
+Components:
+{{components}}
+
+Plan:
+{{plan}}
+
+Return a JSON object representing the complete project structure:
+{
+  "files": [
+    {
+      "path": "package.json",
+      "content": "..."
+    },
+    {
+      "path": "tailwind.config.js",
+      "content": "..."
+    },
+    {
+      "path": "public/index.html",
+      "content": "..."
+    },
+    {
+      "path": "src/styles/globals.css",
+      "content": "..."
+    }
+  ]
+}
